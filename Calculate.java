@@ -4,11 +4,11 @@ public class Calculate {
 		System.out.println("Calculate...");
 		int x = Integer.valueOf(arg[0]);
 		int y = Integer.valueOf(arg[1]);
-		System.out.println("Сумма " + (x + y));
-		System.out.println("Разность " + (x - y));
-		System.out.println("Умножение " + (x * y));
-		System.out.println("Деление " + (x / y));
-		System.out.println("Степень " + (Math.pow(x,y)));
+		System.out.println("Sum " + (x + y));
+		System.out.println("Difference " + (x - y));
+		System.out.println("Multiplication " + (x * y));
+		System.out.println("Division " + (x / y));
+		System.out.println("Power " + (Math.pow(x,y)));
 
 	}
 
